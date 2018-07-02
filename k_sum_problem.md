@@ -14,9 +14,9 @@ Because nums[0] + nums[1] = 2 + 7 = 9,
 return [0, 1].
 ```
 
-This is a fairly straightforward interview question. With some critical thinking, one probably end up with a solution using a hash table. 
+This is a fairly straightforward interview question. With some critical thinking, one probably ensd up with a solution using a hash table. 
 Regardless of the underlying implementation, what a hash table offers is constant time of insertion and lookup. By compromising the space complexity, we achieve O(n) to scan the list and find the answer.
 
 Simple, huh? Here we will focus how one gets to that point. Or in other words, how human thought process evolves with this simple problem.
 
-The problem has many facets, or say "dimensions": "two" sum gives k = 2 as a dimension and size of the list gives another.
+The problem has many facets, or say "dimensions": "two" sum gives k = 2 as a dimension and size = n of the list gives another. A general technique of human approaching problems is "Dimension Reduction". You may not notice that often, but you are repeating this on a daily basis. When we are struggled finding the optimal solution of "two sum" problem, we will try to attack 
